@@ -10,7 +10,7 @@
 
 // Feel free to change the margin below to best fit your own CV
 #set page(
-  margin: (x: 0.9cm, y: 1.3cm),
+  margin: (x: 0.9cm, y: 1.1cm),
 )
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
@@ -27,10 +27,11 @@ Dublin, California | (213) 204‑0375 | #link("mailto:yunding_wu@outlook.com") |
 
 *Veeva Systems* #h(1fr) 2024/01 -- Present \
 Associate Software Engineer #h(1fr) Pleasanton, California \
-- Built and maintained CRM applications on Veeva’s Vault platform, contributing to the transition from Salesforce
-- Developed full-stack features using Java and React to enhance product functionality and performance
-- Collaborated with the design system team to create reusable UI components, improving design consistency across the organization
-- Strengthened front-end infrastructure by implementing common utilities, streamlining development processes for multiple teams
+- Developed and maintained Vault CRM, a B2B SaaS platform, contributing to the strategic transition from Salesforce to Veeva's proprietary Vault platform.
+- Engineered full-stack features using *Java* for backend services and *React* with *Redux* for frontend, delivering robust and scalable enterprise solutions.
+- Implemented comprehensive testing strategies using *JUnit* with *Mockito* for backend and *Jest* with *React Testing Library* for frontend, ensuring 90%+ code coverage and high reliability.
+- Collaborated with the design system team to create and optimize reusable UI components, improving design consistency and reducing development time across the organization.
+- Strengthened front-end infrastructure by implementing common *JavaScript* utilities and patterns, streamlining development processes and enhancing code maintainability for multiple teams.
 
 
 == Internships
