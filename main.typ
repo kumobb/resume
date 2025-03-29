@@ -26,7 +26,7 @@ Dublin, California | (213) 204‑0375 | #link("mailto:yunding_wu@outlook.com") |
 #chiline()
 
 *Veeva Systems* #h(1fr) 2024/01 -- Present \
-Associate Software Engineer #h(1fr) Pleasanton, California \
+Software Engineer #h(1fr) Pleasanton, California \
 - Developed and maintained Vault CRM, a B2B SaaS platform, contributing to the strategic transition from Salesforce to Veeva's proprietary Vault platform.
 - Engineered full-stack features using *Java* for backend services and *React* with *Redux* for frontend, delivering robust and scalable enterprise solutions.
 - Implemented comprehensive testing strategies using *JUnit* with *Mockito* for backend and *Jest* with *React Testing Library* for frontend, ensuring 90%+ code coverage and high reliability.
