@@ -10,14 +10,18 @@
 
 // Feel free to change the margin below to best fit your own CV
 #set page(
-  margin: (x: 0.9cm, y: 1.1cm),
+  margin: (x: 0.8cm, y: 1cm),
 )
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
 
 #set par(justify: true)
 
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
 = Yunding Wu
 
 Dublin, California | (213) 204‑0375 | #link("mailto:yunding_wu@outlook.com") | #link("https://www.linkedin.com/in/yundingwu/")[linkedin.com/yundingwu/]
@@ -25,20 +29,22 @@ Dublin, California | (213) 204‑0375 | #link("mailto:yunding_wu@outlook.com") |
 == Work Experience
 #chiline()
 
-*Veeva Systems* #h(1fr) 2024/01 -- Present \
-Software Engineer #h(1fr) Pleasanton, California \
-- Developed and maintained Vault CRM, a B2B SaaS platform, contributing to the strategic transition from Salesforce to Veeva's proprietary Vault platform.
-- Engineered full-stack features using *Java* for backend services and *React* with *Redux* for frontend, delivering robust and scalable enterprise solutions.
-- Implemented comprehensive testing strategies using *JUnit* with *Mockito* for backend and *Jest* with *React Testing Library* for frontend, ensuring 90%+ code coverage and high reliability.
-- Collaborated with the design system team to create and optimize reusable UI components, improving design consistency and reducing development time across the organization.
-- Strengthened front-end infrastructure by implementing common *JavaScript* utilities and patterns, streamlining development processes and enhancing code maintainability for multiple teams.
+*Veeva Systems* #h(1fr) 2025/4 - Present \
+Software Engineer II #h(1fr)  Pleasanton, California\
+- Lead full-stack development for Vault CRM, a cloud-native B2B SaaS platform, building frontend solutions with *TypeScript*, *React*, and *Redux* and developing *Java* backend services and *RESTful APIs* for enterprise customers.
+- Lead technical design through code reviews, design reviews, and detailed documentation authoring for complex projects and cross-team initiatives.
+- Own the complete design system architecture, developing all UI components from UX designs and driving design consistency across the platform.
+- Built comprehensive testing infrastructure using *Jest* and *React Testing Library* for frontend and *JUnit* with *Mockito* for backend services, achieving 90%+ code coverage for enterprise deployments.
+- Proposed and spearheaded organization-wide JavaScript to TypeScript migration, presenting the technical strategy and leveraging deep TS expertise to modernize the frontend codebase and maintain type-safe shared libraries.
+- Serve as a Frontend Experts panel member, providing technical oversight for code quality, best practices, and modern architecture standards while developing reusable frontend infrastructure and patterns across multiple distributed teams.
+- Researched and implemented AG Grid migration organization-wide, delivering significant performance improvements for data grid components through technical evaluation and stakeholder coordination.
 
 
 == Internships
 #chiline()
 
 *Stealth AI Startup* #h(1fr) 2023/10 -- 2023/12 \
-Full-stack Engineer #h(1fr) Remote, USA
+Software Engineer #h(1fr) Remote, USA
 - Bootstrapped the product's backend infrastructure using *Java Spring Boot*, deploying the application on *Azure* as a *Docker* container with *Redis* and *PostgreSQL* integration with a fully automated CI/CD pipeline.
 - Developed APIs for CRUD operations, including user auth integrated with a *Next.js* frontend using *TypeScript*.
 - Created an *Azure Serverless Function* in *Go* for video file processing with FFmpeg and integration with OpenAI APIs for enhanced AI-driven features.
@@ -65,11 +71,4 @@ B.S. in Mathematics-Computer Science, Major GPA 3.8/4.0 #h(1fr) La Jolla, Califo
 
 == Projects
 #chiline()
-
-*TikTok Backend* #h(1fr) 2023/01 -- 2023/02 \
-- Led an 8-member team in the development of the mockup backend for TikTok during an official *ByteDance* event.
-- Utilized *Golang* and *Hertz* to implement user management and interactions as *RESTful* APIs secured by *JWT* tokens.
-- Crafted the data manipulation system using *GORM*, integrating a dockerized *MySQL* server for efficient storage.
-
-*Weenix OS* #h(1fr) 2022/10 -- 2022/12
-- Developed a Unix-like OS *kernel* in *C language*: process and thread, virtual file system, virtual memory, etc.
+- *Insider Cash*: Built AI-powered financial monitoring system with comprehensive *Docker* containerization, implementing multi-stage builds for *React*\/*TypeScript*\/*Tailwind CSS* frontend and *FastAPI* backend applications, orchestrating microservices with *Docker Compose* and *PostgreSQL*, and designing production-ready deployment infrastructure with health checks, volume management, and multi-environment configurations.
