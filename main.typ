@@ -29,7 +29,7 @@ Dublin, California | (213) 204‑0375 | #link("mailto:yunding_wu@outlook.com") |
 == Work Experience
 #chiline()
 
-*Veeva Systems* #h(1fr) 2025/4 - Present \
+*Veeva Systems* #h(1fr) 2024/1 - Present \
 Software Engineer II #h(1fr)  Pleasanton, California\
 - Lead full-stack development for Vault CRM, a cloud-native B2B SaaS platform, building frontend solutions with *TypeScript*, *React*, and *Redux* and developing *Java* backend services and *RESTful APIs* for enterprise customers.
 - Lead technical design through code reviews, design reviews, and detailed documentation authoring for complex projects and cross-team initiatives.
